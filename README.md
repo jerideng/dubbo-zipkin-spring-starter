@@ -1,7 +1,19 @@
 # dubbo-zipkin-spring-starter
-Zipkin 是一款开源的分布式实时数据追踪系统（Distributed Tracking System）,此库是为国内著名服务治理框架的dubbo 编写的instument library,支持 dubbo全链路实时调用数据统计与依赖分析追踪。使用者可以直接引入此boot starter，扩展默认自动激活。
+Zipkin是一款开源的分布式实时数据追踪系统,dubbo-zipkin-spring-starter是为服务治理框架dubbo 编写的instrument library,支持dubbo全链路实时调用数据统计。使用者可以直接引入此boot starter，扩展默认自动激活(AutoConfiguration)。
 
-##运行自带的测试例子
+
+##springboot用户如何引入使用
+
+```
+        <dependency>
+            <groupId>com.github.jessyZu</groupId>
+   			 <artifactId>dubbo-zipkin-spring-starter</artifactId>
+   			  <version>1.0.2</version>
+        </dependency>
+
+```
+
+##运行自带的测试
 ###1.下载zipkin数据收集服务器包 [zipkin-service-0.0.1-SNAPSHOT.jar](https://pan.baidu.com/s/1bpcG6gZ),这里以本地内存服务器做演示:
 
 ```
@@ -17,7 +29,7 @@ java ./zipkin-service-0.0.1-SNAPSHOT.jar
 * 运行TestService1Consumer.test()
 
 
-说明:
+###说明:
 
 * 调用关系为TestService1Consumer->TestService1Provider->TestService2Provider;
 * 一次调用会产生4个span，用来记录全链路的调用数据
@@ -30,6 +42,6 @@ java ./zipkin-service-0.0.1-SNAPSHOT.jar
 ![img2](./img2.png)
 
 
-###4.如何引入使用
+
 
 
