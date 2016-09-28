@@ -4,7 +4,7 @@
 
     <groupId>com.github.jessyZu</groupId>
     <artifactId>dubbo-zipkin-spring-starter</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>dubbo-zipkin-spring-starter</name>
