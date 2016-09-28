@@ -19,10 +19,16 @@ public class TestService1Consumer {
     Service1 service1;
 
     @Test
-    public void test() throws IOException {
-        service1.hi();
-        System.in.read();
+    public void test() {
+        try {
+            service1.hi();
+            System.in.read();
 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 
     }
 

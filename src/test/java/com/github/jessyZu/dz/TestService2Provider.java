@@ -14,7 +14,11 @@ public class TestService2Provider {
 
     @Test
     public void test() throws Exception {
-        System.in.read();
+        try {
+            System.in.read();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }
