@@ -32,7 +32,4 @@ java ./zipkin-service-0.0.1-SNAPSHOT.jar
 
 ###4.如何引入使用
 
-```
 
-
-```
