@@ -14,10 +14,10 @@ Zipkin是一款开源的分布式实时数据追踪系统,dubbo-zipkin-spring-st
 ```
 
 ##运行自带的测试
-###1.下载zipkin数据收集服务器包 [zipkin-service-0.0.1-SNAPSHOT.jar](https://pan.baidu.com/s/1bpcG6gZ),这里以本地内存服务器做演示:
+###1.下载zipkin数据收集服务器包 [zipkin-service-0.0.1-SNAPSHOT.jar](https://pan.baidu.com/s/1sl3s93n),这里以本地内存服务器做演示:
 
 ```
-java ./zipkin-service-0.0.1-SNAPSHOT.jar
+java -jar ./zipkin-service-0.0.1-SNAPSHOT.jar
 
 ```
 打开 [http://localhost:9411/](http://localhost:9411/)  页面
@@ -42,6 +42,6 @@ java ./zipkin-service-0.0.1-SNAPSHOT.jar
 ![img2](./img2.png)
 
 
-
+![img3](./img3.png)
 
 
