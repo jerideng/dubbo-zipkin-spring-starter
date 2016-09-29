@@ -13,6 +13,12 @@ Zipkin是一款开源的分布式实时数据追踪系统,dubbo-zipkin-spring-st
 
 ```
 
+默认会自动配置zikpin功能，也可以这样关闭：
+
+```
+	dubbo.trace.enabled=false
+
+```
 ##运行自带的测试
 ###1.下载zipkin数据收集服务器包 [zipkin-service-0.0.1-SNAPSHOT.jar](https://pan.baidu.com/s/1sl3s93n),这里以本地内存服务器做演示:
 
