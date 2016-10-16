@@ -28,6 +28,8 @@ java -jar ./zipkin-service-0.0.1-SNAPSHOT.jar
 ```
 打开 [http://localhost:9411/](http://localhost:9411/)  页面
 
+zipkin服务器源码来自springcloud团队 [https://github.com/joshlong/cloud-native-workshop/tree/master/code/zipkin-service](https://github.com/joshlong/cloud-native-workshop/tree/master/code/zipkin-service)
+
 ###2.按顺序分别运行Dubbo的服务调用与提供者
 
 * 运行TestService2Provider.test()
